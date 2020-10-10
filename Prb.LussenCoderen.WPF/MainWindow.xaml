@@ -1,0 +1,18 @@
+﻿<Window x:Class="Prb.LussenCoderen.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prb.LussenCoderen.WPF"
+        mc:Ignorable="d"
+        Title="Oefening lussen : coderen" Height="530.831" Width="800">
+    <Grid>
+        <TextBox x:Name="txtUpper" HorizontalAlignment="Left" Height="174" Margin="23,21,0,0" TextWrapping="Wrap" AcceptsReturn="True" VerticalAlignment="Top" Width="726"  Text="Jantje zag eens pruimen hangen, o als eieren zo groot"/>
+        <TextBox x:Name="txtLower" HorizontalAlignment="Left" Height="210" Margin="23,265,0,0" TextWrapping="Wrap" AcceptsReturn="True" VerticalAlignment="Top" Width="726"/>
+        <Button x:Name="btnEncodeSimple" Content="Codeer simpel" HorizontalAlignment="Left" Margin="23,215,0,0" VerticalAlignment="Top" Width="134" Height="34" Click="btnEncodeSimple_Click"/>
+        <Button x:Name="btnDecodeSimple" Content="Decodeer simpel" HorizontalAlignment="Left" Margin="464,215,0,0" VerticalAlignment="Top" Width="134" Height="34" Click="btnDecodeSimple_Click"/>
+        <Button x:Name="btnEncodeComplex" Content="Codeer complexer" HorizontalAlignment="Left" Margin="174,215,0,0" VerticalAlignment="Top" Width="134" Height="34" Click="btnEncodeComplex_Click"/>
+        <Button x:Name="btnDecodeComplex" Content="Decodeer complexer" HorizontalAlignment="Left" Margin="615,215,0,0" VerticalAlignment="Top" Width="134" Height="34" Click="btnDecodeComplex_Click"/>
+
+    </Grid>
+</Window>
